@@ -31,7 +31,7 @@ public class EchoClient2 {
             System.out.println(helper.add(1, 2));
             System.out.println(helper.mul(2,5));
             System.out.println(helper.div(2,5));
-            System.out.println(helper.div(2,2));
+            System.out.println(helper.div(2,0));
             System.out.println(helper.div(2,1));
             /*
          boolean done = false;
@@ -51,6 +51,7 @@ public class EchoClient2 {
           } // end while
              */
             
+            helper.done( );
         } // end try  
         catch (Exception ex) {
             ex.printStackTrace();
